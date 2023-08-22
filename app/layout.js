@@ -1,7 +1,7 @@
 import './globals.css'
-
 import { Didact_Gothic } from 'next/font/google'
 import { Poppins } from 'next/font/google'
+
 
 
 
@@ -21,7 +21,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} ${didact.className}`}>{children}</body>
+      <body className={`${poppins.className} ${didact.className}`}>
+     
+      {children}</body>
     </html>
   )
 }
