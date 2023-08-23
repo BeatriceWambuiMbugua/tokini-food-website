@@ -5,3 +5,7 @@
 body{
      @apply bg-black
 }
+
+card{
+     opacity: 20;
+}
