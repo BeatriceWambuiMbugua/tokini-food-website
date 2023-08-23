@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <nav className="w-full py-9">
+    <nav className="w-full py-9 ">
       <div className="text-white container mx-auto flex justify-between items-center">
         <div>
           <Link href={"/"}>
