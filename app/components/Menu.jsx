@@ -16,24 +16,51 @@ export default function Menu() {
         </div>
 
         {/* menu cards */}
-        <div className="grid grid-cols-2 gap-y-7 text-white pt-4">
+        <div className="grid grid-cols-2 gap-7 text-white pt-4">
           {/* Menu 1 */}
-          <div className="shadow-xl ring-1 ring-white rounded-md overflow-hidden break-all w-[610px] h-[253px] bg-[url('/assets/images/beverages.svg')] relative ">
-          <div className="bg-black bg-opacity-50 w-full h-full ">
-          <div className="absolute">
-          <div className="flex py-5 items-center justify-center space-x-2">
-          <h2 className=" text-lg pl-60 ">Beverages</h2>
-          <Image src={"/assets/icons/tea_cup.svg"} width={0} height={0} className="w-5 h-5" alt="tea_cup icon" />
-          </div>
-          
-          <div>
+          <div className="shadow-xl ring-1 ring-white rounded-md overflow-hidden break-all bg-[url('/assets/images/beverages.svg')] relative w-full  bg-cover bg-no-repeat">
+            <div className="bg-black bg-opacity-50 w-full h-full ">
+              <div className="absolute">
+                <div className="flex pt-5 items-center justify-center space-x-2">
+                  <h2 className=" text-lg pl-60 ">Beverages</h2>
+                  <Image
+                    src={"/assets/icons/tea_cup.svg"}
+                    width={0}
+                    height={0}
+                    className="w-5 h-5"
+                    alt="tea_cup icon"
+                  />
+                </div>
 
-          </div>
-
-          </div>
-
-          </div>
-           
+                <div className="pl-16 ">
+                  <div className="flex items-center justify-center pt-4">
+                    <p className="mr-14">Chai Tea</p>
+                    <div className=" border border-dotted w-40 mr-12 " />
+                    <p>Ksh 250</p>
+                  </div>
+                  <div className="flex items-center justify-center  pt-4">
+                    <p className="mr-12">Dawa Tea</p>
+                    <div className=" border border-dotted w-40 mr-12 " />
+                    <p>Ksh 500</p>
+                  </div>
+                  <div className="flex items-center justify-center  pt-4">
+                    <p className="mr-10">Kenyan Tea</p>
+                    <div className=" border border-dotted w-40 mr-12 " />
+                    <p>Ksh 270</p>
+                  </div>
+                  <div className="flex items-center justify-center pt-4">
+                    <p className="mr-[60px]">Hibiscus</p>
+                    <div className=" border border-dotted w-40 mr-12 " />
+                    <p>Ksh 450</p>
+                  </div>
+                  <div className="flex items-center justify-center  pt-4">
+                    <p className="mr-[22px]">Tangawizi Tea</p>
+                    <div className=" border border-dotted w-40 mr-12 " />
+                    <p>Ksh 250</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           {/* Menu 2 */}
           <div className="shadow-xl ring-1 ring-white rounded-md  overflow-hidden break-all w-[610px] h-[253px]">
