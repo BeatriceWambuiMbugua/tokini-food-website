@@ -63,13 +63,21 @@ export default function Menu() {
             </div>
           </div>
           {/* Menu 2 */}
-          <div className="shadow-xl ring-1 ring-white rounded-md  overflow-hidden break-all w-[610px] h-[253px]">
-            <Image
-              src="/assets/images/soft_drinks.svg"
-              width={610}
-              height={253}
-              alt="soda"
-            />
+          <div className="shadow-xl ring-1 ring-white rounded-md  overflow-hidden break-all bg-[url('/assets/images/soft_drinks.svg')] w-full h-[253px] bg-cover bg-no-repeat relative">
+            <div className="bg-black w-full h-full bg-opacity-50">
+              <div className="absolute">
+                <div className="flex items-center justify-center space-x-2 w-[610px] mx-auto">
+                  <h2 className="text-lg">Soft Drinks</h2>
+                  <Image
+                    src={"/assets/icons/softdrinks.svg"}
+                    width={0}
+                    height={0}
+                    className="w-5 h-5"
+                    alt="tea_cup icon"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
           {/* Menu 3 */}
           <div className="shadow-xl ring-1 ring-white rounded-md overflow-hidden break-all w-[610px] h-[253px] bg-[url]">
