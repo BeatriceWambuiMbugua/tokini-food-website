@@ -20,9 +20,9 @@ export default function Menu() {
           {/* Menu 1 */}
           <div className="shadow-xl ring-1 ring-white rounded-md overflow-hidden break-all bg-[url('/assets/images/beverages.svg')] relative w-full  bg-cover bg-no-repeat">
             <div className="bg-black bg-opacity-50 w-full h-full ">
-              <div className="absolute">
-                <div className="flex pt-5 items-center justify-center space-x-2">
-                  <h2 className=" text-lg pl-60 ">Beverages</h2>
+              <div className="absolute  w-[610px] mx-auto ">
+                <div className="flex pt-5 items-center justify-center space-x-2 ">
+                  <h2 className=" text-lg ">Beverages</h2>
                   <Image
                     src={"/assets/icons/tea_cup.svg"}
                     width={0}
@@ -32,7 +32,7 @@ export default function Menu() {
                   />
                 </div>
 
-                <div className="pl-16 ">
+                <div className=" ">
                   <div className="flex items-center justify-center pt-4">
                     <p className="mr-14">Chai Tea</p>
                     <div className=" border border-dotted w-40 mr-12 " />
