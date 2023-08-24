@@ -66,7 +66,8 @@ export default function Menu() {
           <div className="shadow-xl ring-1 ring-white rounded-md  overflow-hidden break-all bg-[url('/assets/images/soft_drinks.svg')] w-full h-[253px] bg-cover bg-no-repeat relative">
             <div className="bg-black w-full h-full bg-opacity-50">
               <div className="absolute">
-                <div className="flex items-center justify-center space-x-2 w-[610px] mx-auto">
+                {/* menu 2 heading */}
+                <div className="flex items-center justify-center space-x-2 w-[610px] mx-auto pt-6">
                   <h2 className="text-lg">Soft Drinks</h2>
                   <Image
                     src={"/assets/icons/softdrinks.svg"}
@@ -75,6 +76,34 @@ export default function Menu() {
                     className="w-5 h-5"
                     alt="tea_cup icon"
                   />
+                </div>
+                {/* menu 2 content */}
+                <div className="pt-2">
+                  <div className="flex items-center justify-around">
+                    <p>Orange Juice</p>
+                    <div className="border border-dotted w-40" />
+                    <p>Ksh 550</p>
+                  </div>
+                  <div className="flex items-center justify-around pt-4">
+                    <p>Passion Juice</p>
+                    <div className="border border-dotted w-40" />
+                    <p>Ksh 650</p>
+                  </div>
+                  <div className="flex items-center justify-around pt-4">
+                    <p>Delmonte Juice</p>
+                    <div className="border border-dotted w-40" />
+                    <p>Ksh 850</p>
+                  </div>
+                  <div className="flex items-center justify-around pt-4">
+                    <p>Pineapple Juice</p>
+                    <div className="border border-dotted w-40" />
+                    <p>Ksh 750</p>
+                  </div>
+                  <div className="flex items-center justify-around pt-4">
+                    <p>Water Melon Juice</p>
+                    <div className="border border-dotted w-40" />
+                    <p>Ksh 250</p>
+                  </div>
                 </div>
               </div>
             </div>
