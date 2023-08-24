@@ -4,9 +4,10 @@ import Navbar from "./Navbar";
 
 export default function Hero() {
   return (
-    <div className="">
+    <div className="relative">
       <div className="carousel w-full h-[90vh]   ">
         <div id="slide1" className="carousel-item relative w-full">
+       
           <img
             src="/assets/images/hero.svg"
             className="w-full  object-cover  "
@@ -63,6 +64,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
+      
     </div>
   );
 }
